@@ -1,0 +1,44 @@
+a {
+    color: rgb(12, 45, 134);
+    text-decoration: none;
+    transition: all .2s;
+    cursor: grabbing;
+   }
+
+a:visited {
+    color: rgb(231, 56, 25);
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    color: rgb(204, 201, 14);
+    font-size: 1.2rem;
+}
+
+a:active {
+    color: rgb(26, 114, 14);
+}
+
+a:focus {
+    color: aqua;
+}
+
+.btn {
+    background: rgb(98 153 127);
+    padding: 15px 20px;
+    color: white;
+    border: 2px solid rgb(114, 14, 64);
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 12px 12px 20px rgba(102, 16, 16, 0.3);
+    font-family: inherit;
+    font-weight: bold;
+    transform: scale (1.05);
+    transition: transform 0.2s ease-in-out;
+
+}
+
+.btn:hover {
+    opacity: 0.8;
+}

@@ -1,0 +1,49 @@
+.contact {
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.contact h4 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.contact div {
+    margin-bottom: 6px;
+}
+
+.contact label {
+    display: block;
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
+    width: 100%; /* Занимать всю доступную ширину контейнера */ 
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-sizing: border-box; /* Чтобы padding и border не увеличивали общую ширину */
+}
+
+.contact textarea {
+    resize: vertical; /* Разрешить вертикальное изменение размера */
+}
+
+.contact .btn {
+    padding: 5px 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact .btn:hover {
+    background-color: #0056b3;
+}

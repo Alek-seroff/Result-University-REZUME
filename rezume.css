@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Caveat:wght@400..700&display=swap');
+
+body {
+
+    font-family: Bellota, sans-serif;
+    font-weight: 400;
+    color: #00050e;
+    background: #dacaca;
+}
+
+h4 {
+    font-size: 20px;
+    color: rgb(43, 8, 8);
+}
+
+.rabota table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.rabota thead th:nth-child(1) {
+    width: 2%;
+}
+
+.rabota thead th:nth-child(2) {
+    width: 7%;
+
+}
+
+.rabota thead th:nth-child(3) {
+    width: 2%;
+}
+
+.rabota th,
+.rabota td {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.rabota thead th {
+    width: 100%;
+    text-align-last: center;
+    color: black;
+    text-shadow: 1px 1px 1px black;
+}
+
+.rabota tbody td {
+    text-align: left;
+}
+
+.rabota td:nth-child(2),
+.rabota td:nth-child(3) {
+    color: rgb(8, 8, 5);
+}

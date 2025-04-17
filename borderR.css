@@ -1,0 +1,27 @@
+.rabota {
+    border: 1px outset;
+    margin-bottom: 20px;
+    display: inline-block;
+    border-radius: 5px;
+    background: rgb(98, 153, 127);
+}
+
+.hoby {
+    border: 1px outset rgb(141, 141, 216);
+    padding: 0 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background: rgb(98 153 127);
+
+}
+
+.contact h4 {
+    border: 1px outset rgb(170, 99, 211);
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background: rgb(98 153 127);
+}
+
+.target {
+    margin-bottom: 20px;
+}

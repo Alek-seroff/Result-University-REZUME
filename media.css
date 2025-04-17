@@ -1,0 +1,7 @@
+@media (max-width: 650px) {
+    .box {
+        font-size: 3vw;
+        padding: 10px;
+        text-align: center;
+    }
+}
